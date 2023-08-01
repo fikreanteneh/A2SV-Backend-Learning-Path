@@ -1,23 +1,22 @@
 class Task3
 {
-    public static float gradeCalc()
-    {
+    public static float gradeCalc(){
         Console.WriteLine("Please insert Your name");
         string? name = Console.ReadLine();
   
-        Console.WriteLine("Please insert the number of");
+        Console.WriteLine("Please insert the number of subjects you want to calculate the average");
         int numberOfGrades;
-        while (!int.TryParse(Console.ReadLine(), out numberOfGrades))
-        {
+
+        while (!int.TryParse(Console.ReadLine(), out numberOfGrades)){
             Console.WriteLine("Please Insert A Number");
         }
 
-        if (numberOfGrades == 0) 
-        {return 0;}
+        if (numberOfGrades == 0) {
+            return 0;
+            }
 
         int total = 0;
-        for (int i = 0; i < numberOfGrades; i++)
-        {
+        for (int i = 0; i < numberOfGrades; i++) {
             Console.WriteLine("Please insert Subject Name");
             string? subject = Console.ReadLine();
             Console.WriteLine($"Please insert {subject} grade");
