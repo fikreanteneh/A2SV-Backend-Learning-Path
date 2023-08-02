@@ -1,9 +1,9 @@
 
 
 class MediaItem {
-    public string Title;
-    public string MediaType;
-    public int Duration;
+    private string Title;
+    private string MediaType;
+    private int Duration;
 
     public MediaItem(string aTitle, string aMediaType, int aDuration) {
         Title = aTitle;
@@ -24,4 +24,9 @@ class MediaItem {
     public override int GetHashCode(){
         return Title.GetHashCode();
     }
+
+    public string GetTitle => Title;
+    public string GetMediaType => MediaType;
+    public int GetDuration => Duration;
+    
 }

@@ -18,8 +18,7 @@ class Program {
         aberehot.AddMediaItem(myMediaItems);
         aberehot.RemoveBook(0, "Yess");
         Console.WriteLine(aberehot);
-        Console.WriteLine(aberehot.Books[0]);
-
+        Console.WriteLine(aberehot.SearchBooksByAuthor("Author 1").Count);
 
     }
 }

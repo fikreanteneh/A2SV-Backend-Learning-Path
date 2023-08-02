@@ -1,10 +1,10 @@
 
 
 class Book {
-    public string Title;
-    public string Author;
-    public string ISBN;
-    public int PublicationYear;
+    private string Title;
+    private string Author;
+    private string ISBN;
+    private int PublicationYear;
 
     public Book(string aTitle, string aAuthor, string aISBN, int aPublicationYear) {
         Title = aTitle;
@@ -25,4 +25,9 @@ class Book {
     public override int GetHashCode(){
         return ISBN.GetHashCode();
     }
+
+    public string GetISBN => ISBN;
+    public string GetTitle => Title;
+    public string GetAuthor => Author;
+    public int GetPublicationYear => PublicationYear;
 }
