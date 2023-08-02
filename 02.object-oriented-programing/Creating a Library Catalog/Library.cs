@@ -92,4 +92,31 @@ class Library {
     public void RemoveMediaItem(params Object[] mediaItems){
         Console.WriteLine("Please Inser a Media Item or List Of Media Items");
     }
+
+    public List<Book> SearchBooksByTitle(string aTitle){
+        return Books.FindAll(book => book.Title.Contains(aTitle));
+    }
+    public List<Book> SearchBooksByYear(int aPublicationYear){
+        return Books.FindAll(book => book.PublicationYear == aPublicationYear);
+    }
+    public List<Book> SearchBooksByISBN(string aISBN){
+        return Books.FindAll(book => book.ISBN.Contains(aISBN));
+    }
+    public List<Book> SearchBooksByAuthor(string aAuthor){
+        return Books.FindAll(book => book.Author.Contains(aAuthor));
+    }
+
+
+    public List<MediaItem> SearchMediaItemsByTitle(string aTitle){
+        return MediaItems.FindAll(mediaItem => mediaItem.Title.Contains(aTitle));
+    }
+    public List<MediaItem> SearchMediaItemsByMediaType(string aMediaType){
+        return MediaItems.FindAll(mediaItem => mediaItem.MediaType.Contains(aMediaType));
+    }
+    public List<MediaItem> SearchMediaItemsByDuration(int aDuration){
+        int leftDuration = aDuration - 5;
+        int rightDuration = aDuration + 5;
+        return MediaItems.FindAll(mediaItem => leftDuration <= mediaItem.Duration && mediaItem.Duration <= rightDuration);
+    }
+
 }
