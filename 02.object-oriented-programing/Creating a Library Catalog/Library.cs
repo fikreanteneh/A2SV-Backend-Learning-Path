@@ -24,15 +24,24 @@ class Library {
         }
     }
 
+    public bool ISBNExists(string aISBN){
+         if (Books.Exists(book => book.ISBN == aISBN)){
+            Console.WriteLine($"Book with ISBN {aISBN} already exists");
+         }
+         return false;
+    }
     public void AddBook(Book aBook) {
+        if (ISBNExists(aBook.ISBN)) return;
         Books.Add(aBook);
     }
     public void AddBook(Book[] aBooks) {
         foreach(Book book in aBooks){
+            if (ISBNExists(book.ISBN)) continue;
             Books.Add(book);
         }
     }
     public void AddBook(string aTitle, string aAuthor, string aISBN, int aPublicationYear) {
+        if (ISBNExists(aISBN)) return;
         Books.Add(new Book(aTitle, aAuthor, aISBN, aPublicationYear));
     }
     public void AddBook(params Object[] books){
@@ -40,16 +49,25 @@ class Library {
     }
 
 
+    bool TitleExist(string aTitle){
+         if (Books.Exists(book => book.Title == aTitle)){
+            Console.WriteLine($"MediaItem with Title {aTitle} already exists");
+         }
+         return false;
+    }
 
     public void AddMediaItem(MediaItem aMediaItem) {
+        if (TitleExist(aMediaItem.Title)) return;
         MediaItems.Add(aMediaItem);
     }
     public void AddMediaItem(MediaItem[] aMediaItems) {
         foreach(MediaItem mediaItem in aMediaItems){
+            if (TitleExist(mediaItem.Title)) continue;
             MediaItems.Add(mediaItem);
         }
     }
     public void AddMediaItem(string aTitle, string aMediaType, int aDuration) {
+        if (TitleExist(aTitle)) return;
         MediaItems.Add(new MediaItem(aTitle, aMediaType, aDuration));
     }
 
