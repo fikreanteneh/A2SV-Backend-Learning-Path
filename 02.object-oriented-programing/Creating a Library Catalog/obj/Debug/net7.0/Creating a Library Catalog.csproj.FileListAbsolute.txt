@@ -1,0 +1,15 @@
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\bin\Debug\net7.0\Creating a Library Catalog.exe
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\bin\Debug\net7.0\Creating a Library Catalog.deps.json
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\bin\Debug\net7.0\Creating a Library Catalog.runtimeconfig.json
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\bin\Debug\net7.0\Creating a Library Catalog.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\bin\Debug\net7.0\Creating a Library Catalog.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\Creating a Library Catalog.csproj.AssemblyReference.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\Creating a Library Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\Creating a Library Catalog.AssemblyInfoInputs.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\Creating a Library Catalog.AssemblyInfo.cs
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\Creating a Library Catalog.csproj.CoreCompileInputs.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\Creating a Library Catalog.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\refint\Creating a Library Catalog.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\Creating a Library Catalog.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\Creating a Library Catalog.genruntimeconfig.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Creating a Library Catalog\obj\Debug\net7.0\ref\Creating a Library Catalog.dll
