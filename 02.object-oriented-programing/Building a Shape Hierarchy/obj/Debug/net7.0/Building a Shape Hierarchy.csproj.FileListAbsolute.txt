@@ -1,0 +1,15 @@
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.csproj.AssemblyReference.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.AssemblyInfoInputs.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.AssemblyInfo.cs
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.csproj.CoreCompileInputs.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.exe
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.deps.json
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.runtimeconfig.json
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\refint\Building a Shape Hierarchy.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.genruntimeconfig.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\02.object-oriented-programing\Building a Shape Hierarchy\obj\Debug\net7.0\ref\Building a Shape Hierarchy.dll
