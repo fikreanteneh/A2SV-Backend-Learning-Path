@@ -3,8 +3,8 @@
 
 
 class Triangle : Shape {
-    double Base;
-    double Height;
+    private double Base;
+    private double Height;
 
     public Triangle(double aBase, double aHeight, string aName = "Triangle"): base(aName) {
         Base = aBase;

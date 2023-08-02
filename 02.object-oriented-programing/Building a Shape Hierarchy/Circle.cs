@@ -1,7 +1,7 @@
 
 
 class Circle : Shape {
-    double Radius;
+    private double Radius;
     public Circle(double aRadius, string aName = "Circle") : base(aName) { 
         Radius = aRadius;
     }

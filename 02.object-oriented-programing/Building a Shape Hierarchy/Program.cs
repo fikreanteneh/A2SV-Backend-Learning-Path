@@ -1,7 +1,7 @@
 ﻿
 class Program {
     public static void PrintShapeInfo(Shape shape) {
-        Console.WriteLine("Shape name: {0}", shape.Name);
+        Console.WriteLine("Shape name: {0}", shape.GetName);
         Console.WriteLine("Area: {0}", shape.CalculateArea());
         Console.WriteLine();
     }

@@ -1,6 +1,6 @@
 
 abstract class Shape {
-    public string Name;
+    private string Name;
 
     protected Shape(string aName){
         Name = aName;
@@ -8,4 +8,5 @@ abstract class Shape {
     public virtual double CalculateArea(){
         return 0;
     }
+    public string GetName => Name;
 }
