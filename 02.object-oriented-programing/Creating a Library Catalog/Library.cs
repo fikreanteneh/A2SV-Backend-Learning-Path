@@ -28,6 +28,7 @@ class Library {
     public bool ISBNExists(Book aBook){
          if (Books.Exists(book => book.GetISBN == aBook.GetISBN)){
             Console.WriteLine($"Book with ISBN {aBook.GetISBN} already exists");
+            return true;
          }
          return false;
     }
@@ -60,6 +61,7 @@ class Library {
     bool TitleExist(MediaItem aMediaItem){
          if (MediaItems.Exists(mediaItem => mediaItem.GetTitle == aMediaItem.GetTitle)){
             Console.WriteLine($"MediaItem with Title {aMediaItem.GetTitle} already exists");
+            return true;
          }
          return false;
     }
