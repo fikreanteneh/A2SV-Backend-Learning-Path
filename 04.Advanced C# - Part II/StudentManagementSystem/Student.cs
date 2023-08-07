@@ -26,7 +26,9 @@ namespace global
 
         public override string ToString() => $"{RollNumber}.{Name}\n\tAge: {Age}\n\tGrade: {Grade}";
 
-        public override bool Equals(object obj) => obj is Student student && RollNumber == student.RollNumber;
+        public override bool Equals(object obj){
+            return obj is Student student && RollNumber == student.RollNumber;
+        }
 
         public override int GetHashCode() => HashCode.Combine(RollNumber);
 
@@ -34,7 +36,6 @@ namespace global
             this.age = age;
             this.name = name;
             this.grade = grade;
-
         }
     }
 }

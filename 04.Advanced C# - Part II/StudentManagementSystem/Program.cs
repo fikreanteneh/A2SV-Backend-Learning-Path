@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
+﻿
 namespace  global
 {
     class Program{
@@ -10,6 +8,7 @@ namespace  global
             
 
             while(true) {
+
                 Console.WriteLine("0. Save and Exit Program");
                 Console.WriteLine("1. Add Student");
                 Console.WriteLine("2. Search Student");
@@ -18,14 +17,15 @@ namespace  global
                 Console.WriteLine("5. Sort Students");
                 Console.WriteLine("6. Update Student");
 
-
                 int choice = UserInputHandler.GetIntInput("Choose a correct option", 0, 6);
+
                 if(choice == 0){
                     Console.WriteLine("\nSaving and Exiting Program");
                     studentList.SaveChanges();
                     Console.WriteLine("Saved and Exited Program\n");
                     return;
                 }
+
                 else if(choice == 1){
                     Console.WriteLine("\nAdding Student");
                     int rollNumber = UserInputHandler.GetIntInput("Enter Roll Number");
@@ -35,6 +35,7 @@ namespace  global
                     Student student = new Student(rollNumber, name, age, grade);
                     studentList.AddStudent(student);
                 }
+
                 else if(choice == 2){
                     Console.WriteLine("\nSearching Student");
                     Console.WriteLine("1. Search By RollNumber");
@@ -48,15 +49,18 @@ namespace  global
                         studentList.DisplayStudents(studentList.SearchByName(sName));
                     }                  
                 }
+
                 else if (choice == 3){
                     Console.WriteLine("\nDisplaying All Students");
                     studentList.DisplayStudents();
                 }
+
                 else if (choice == 4){
                     Console.WriteLine("\nDeleting Student");
                     int id = UserInputHandler.GetIntInput("Enter Roll Number");
                     studentList.DeleteStudent(id);
                 }
+
                 else if(choice == 5){
                     Console.WriteLine("\nSorting Students");
                     Console.WriteLine("1. Sort by Name ");
@@ -67,6 +71,7 @@ namespace  global
                     else if (option == 2) studentList.DisplayStudents(studentList.SortByAge());
                     else if (option == 3) studentList.DisplayStudents(studentList.SortByGrade());
                 }
+
                 else if (choice == 6){
                     Console.WriteLine("\nUpdating Student");
                     studentList.DisplayStudents();

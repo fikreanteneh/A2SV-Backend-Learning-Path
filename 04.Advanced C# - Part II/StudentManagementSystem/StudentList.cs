@@ -16,7 +16,7 @@ namespace global{
             _ = FileManager.LineChanger(new string[]{jsonDocuments});
         }
 
-        public void DisplayStudents(List<T> students = null){
+        public void DisplayStudents(List<T>? students = null){
             List<T> aStudents = students ?? Students;
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nYou have {0} students in this list\n", aStudents.Count);
@@ -53,6 +53,26 @@ namespace global{
             List<T> searchResult = searchQuery.ToList();
             return searchResult;
         }
+        public void DeleteStudent(int rollNumber){
+            List<T> searchResult = this.SearchById(rollNumber);
+            if (searchResult.Count == 0){
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Student with this Roll Number does not exist");
+                Console.ResetColor();
+                return;
+            }
+            Students.Remove(searchResult[0]);
+        }
+        
+        public void Update(int id, string name, int age, float grade){
+            T selected = this.SearchById(id)[0];
+            name = name.Length > 0 ? name : selected.Name;
+            age = age > 0 ? age : selected.Age;
+            grade = grade > 0 ? grade : selected.Grade;
+            selected.Update(name, age, grade);
+        }
+
+    
         public List<T> SortByName(){
             var searchQuery = from student in Students
                               orderby student.Name
@@ -74,26 +94,6 @@ namespace global{
                               select student;
             List<T> searchResult = searchQuery.ToList();
             return searchResult;
-        }
-
-        public void DeleteStudent(int rollNumber){
-            List<T> searchResult = this.SearchById(rollNumber);
-            if (searchResult.Count == 0){
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Student with this Roll Number does not exist");
-                Console.ResetColor();
-                return;
-            }
-            Students.Remove(searchResult[0]);
-        }
-        
-        public void Update(int id, string name, int age, float grade){
-            T selected = this.SearchById(id)[0];
-            name = name.Length > 0 ? name : selected.Name;
-            age = age > 0 ? age : selected.Age;
-            grade = grade > 0 ? grade : selected.Grade;
-            selected.Update(name, age, grade);
-
         }
 
     }

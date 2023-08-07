@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EWC07lgofIFDF3YOPdc7GZdMBO0YUXf009A0Ro86WZZSaeaPzllLvVr6nzc+/S61ZH36SU15ohzlw8Q/WMbWLQ==",
+  "dgSpecHash": "CbIT43H2bOERkzr44vfyWVMEgSRvZNxRw5r2pi47RY2zi439mzMvl3o9SA2+5OqBR0XtnyINGPkln3YSbIxw0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\04.Advanced C# - Part II\\StudentManagementSystem\\StudentManagementSystem.csproj",
+  "projectFilePath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\04.Advanced C# - Part II\\StudentManagementSystem\\StudentManagementSystem.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
