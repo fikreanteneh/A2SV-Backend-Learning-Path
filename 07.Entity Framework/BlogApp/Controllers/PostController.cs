@@ -16,19 +16,22 @@ public class PostsController : ControllerBase{
         _context = context;
         _postManager = new PostManager(_context);
     }
+
+    //Get methods domain/Posts  ---> return all posts
     [HttpGet]
     public IActionResult Get(){
         try{
             return Ok(_postManager.GetAllPosts());
         }
         catch (CustomException e){
-            return StatusCode(400, e.Message);
+            return StatusCode(404, e.Message);
         }
         catch (Exception){
             return StatusCode(500, "Internal server error");
         }
     }
 
+    //Post methods domain/Posts  ---> return created post and its get link
     [HttpPost]
     public IActionResult Create([FromBody] CreatePostDto post){
         try{
@@ -39,13 +42,14 @@ public class PostsController : ControllerBase{
             return CreatedAtAction(nameof(Get), new {id = createdPost.Id}, createdPost);
         }
         catch (CustomException e){
-            return StatusCode(400, e.Message);
+            return StatusCode(404, e.Message);
         }
         catch(Exception){
             return StatusCode(500, " server error");
         }
     }
 
+    //Put methods domain/Posts/postId  ---> return updated post 
     [HttpPut("{id}")]
     public IActionResult Update(int id, [FromBody] UpdatePostDto updatedPost){
         try{
@@ -58,12 +62,14 @@ public class PostsController : ControllerBase{
             return Ok(post);
         }
         catch(CustomException e){
-            return StatusCode(400, e.Message);
+            return StatusCode(404, e.Message);
         }
         catch(Exception){
             return StatusCode(500, "Internal server error");
         }
     }
+
+    //Delete methods domain/Posts/postId  ---> return NOContent 
     [HttpDelete("{id}")]
     public IActionResult Delete(int id){
         try{
@@ -71,74 +77,11 @@ public class PostsController : ControllerBase{
             return NoContent();
         }
         catch(CustomException e){
-            return StatusCode(400, e.Message);
+            return StatusCode(404, e.Message);
         }
         catch(Exception){
             return StatusCode(500, "Internal server error");
         }
     }
-
-    // [HttpPost("{postId}/comments")]
-    // public IActionResult AddComment(int postId, [FromBody]CreateCommentDto comment){
-    //     try{
-    //         string addedComment = _commentManager.CreateComment(
-    //             new Comment(){
-    //                 PostId = postId,
-    //                 Text = comment.Text,
-    //             }
-    //         );
-    //         return Ok(addedComment);
-    //     }
-    //     catch (CustomException e){
-    //         return StatusCode(400, e.Message);
-    //     }
-    //     catch (Exception){
-    //         return StatusCode(500, "Internal server error");
-    //     }
-    // }
-
-    // [HttpGet("{postId}/comments")]
-    // public IActionResult GetComments(int postId){
-    //     try{
-    //         return Ok(_commentManager.GetAllComments(postId));
-    //     }
-    //     catch (CustomException e){
-    //         return StatusCode(400, e.Message);
-    //     }
-    //     catch (Exception){
-    //         return StatusCode(500, "Internal server error");
-    //     }
-    // }
-
-    // [HttpPut("{postId}/comments/{commentId}")]
-    // public IActionResult UpdateComment(int postId, int commentId, [FromBody] UpdateCommentDto updatedComment){
-    //     try{
-    //         return Ok(_commentManager.UpdateComment(
-    //         new Comment(){
-    //             Id = commentId,
-    //             PostId = postId,
-    //             Text = updatedComment.Text,
-    //         }));
-    //     }
-    //     catch(CustomException e){
-    //         return StatusCode(400, e.Message);
-    //     }
-    //     catch(Exception){
-    //         return StatusCode(500, "Internal server error");
-    //     }
-    // }
-
-    // [HttpDelete("{postId}/comments/{commentId}")]
-    // public IActionResult DeleteComment(int postId, int commentId){
-    //     try{
-    //         return Ok(_commentManager.DeleteComment(commentId));
-    //     }
-    //     catch(CustomException e){
-    //         return StatusCode(400, e.Message);
-    //     }
-    //     catch(Exception){
-    //         return StatusCode(500, "Internal server error");
-    //     }
-    // }
 
 }

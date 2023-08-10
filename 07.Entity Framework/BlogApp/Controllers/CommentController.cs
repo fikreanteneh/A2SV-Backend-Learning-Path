@@ -17,19 +17,21 @@ public class CommentsController : ControllerBase{
         _commentManager = new CommentManager(_context);
     }
 
+    // Get method with domain/Posts/postId/Comments  -------> return all comment with specified post
     [HttpGet]
     public IActionResult GetComments(int postId){
         try{
             return Ok(_commentManager.GetAllComments(postId));
         }
         catch (CustomException e){
-            return StatusCode(400, e.Message);
+            return StatusCode(404, e.Message);
         }
         catch (Exception){
             return StatusCode(500, "Internal server error");
         }
     }
 
+    // Post method with domain/Posts/postId/Comments  -------> return the created Post
     [HttpPost]
     public IActionResult AddComment(int postId, [FromBody]CreateCommentDto comment){
         try{
@@ -42,7 +44,7 @@ public class CommentsController : ControllerBase{
             return CreatedAtAction(nameof(GetComments), new { postId, id = addedComment.Id }, addedComment);
         }
         catch (CustomException e){
-            return StatusCode(400, e.Message);
+            return StatusCode(404, e.Message);
         }
         catch (Exception){
             return StatusCode(500, "Internal server error");
@@ -50,6 +52,7 @@ public class CommentsController : ControllerBase{
     }
 
 
+    // Put method with domain/Posts/postId/Comments/commentId  -------> return the updated Post
     [HttpPut("{commentId}")]
     public IActionResult UpdateComment(int postId, int commentId, [FromBody] UpdateCommentDto updatedComment){
         try{
@@ -62,13 +65,14 @@ public class CommentsController : ControllerBase{
             return Ok(comment);
         }
         catch(CustomException e){
-            return StatusCode(400, e.Message);
+            return StatusCode(404, e.Message);
         }
         catch(Exception){
             return StatusCode(500, "Internal server error");
         }
     }
 
+    // Post method with domain/Posts/postId/Comments/commentId  -------> return No Contenet
     [HttpDelete("{commentId}")]
     public IActionResult DeleteComment(int commentId){
         try{
@@ -76,7 +80,7 @@ public class CommentsController : ControllerBase{
             return NoContent();
         }
         catch(CustomException e){
-            return StatusCode(400, e.Message);
+            return StatusCode(404, e.Message);
         }
         catch(Exception){
             return StatusCode(500, "Internal server error");

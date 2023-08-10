@@ -10,10 +10,7 @@ public class ApiDbContext : DbContext {
 
         }
 
-        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { 
-        //     optionsBuilder.UseNpgsql("Host=localhost:5432;Database=blog;Username=postgres;Password=241128");
-        // }
-
+        // Used for model creating and It creates the table with this configurations
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
 
             modelBuilder.Entity<Comment>(
@@ -33,14 +30,6 @@ public class ApiDbContext : DbContext {
             modelBuilder.Entity<Comment>()
                 .Property(p => p.Id)
                 .UseIdentityColumn();
-
-
-            // modelBuilder.Entity<Post>(entity => {
-            //     entity.HasMany(e => e.Comments)
-            //         .WithOne(e => e.Post)
-            //         .OnDelete(DeleteBehavior.Cascade)
-            //         .HasConstraintName("FK_Comment_Post");
-            // });
             
             modelBuilder.Entity<Post>()
                 .Property(p => p.Id)
