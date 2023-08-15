@@ -11,5 +11,3 @@ where
     e.salary = s.sal and
     e.departmentId = s.departmentId and
     d.id = s.departmentId
-    
-    
