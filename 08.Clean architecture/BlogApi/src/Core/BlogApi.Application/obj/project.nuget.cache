@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "IYP0ec4o5V+Cu/DB3WuF8l3xsXYhYp0jlSbeVoeLMk8zo4rPMj+Cm5NwfeSCEBNXWyy1KqnYGTdduig5vHDxTQ==",
+  "dgSpecHash": "Thvs4sLBvKlfvlMubQA2iJyl3IXvxmZT0mWfgeSULUbMAdGOkxV/C5Q7CqhCnjZ+hbvBJa9zHEbHdMOyCXGGiA==",
   "success": true,
   "projectFilePath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fikre\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\fikre\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\fikre\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\fikre\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
