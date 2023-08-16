@@ -2,7 +2,10 @@
 
 
 using LeaveManagement.Domain;
-using LeaveManagment.Application.DTO;
+using LeaveManagment.Application.DTO.LeaveAllocation;
+using LeaveManagment.Application.DTO.LeaveRequest;
+using LeaveManagment.Application.DTO.LeaveType;
+
 
 namespace LeaveManagment.Application.Profile;
 public class MappingProfile: AutoMapper.Profile

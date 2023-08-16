@@ -1,11 +1,9 @@
-
 using LeaveManagment.Application.DTO.LeaveType;
 using MediatR;
 
 namespace LeaveManagment.Application.Features.LeaveTypes.Requests.Commands;
-
-public class CreateLeaveTypeCommand : IRequest<int>
+public class DeleteLeaveTypeCommand : IRequest<Unit>
 {
-    public CreateLeaveTypeDto leaveTypeDto {get; set;}
-}
+    public int Id { get; set; }
 
+}

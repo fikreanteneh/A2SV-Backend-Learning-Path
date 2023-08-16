@@ -5,6 +5,7 @@ using LeaveManagment.Application.Features.LeaveTypes.Requests.Commands;
 using LeaveManagment.Application.Persistence.Contracts;
 using MediatR;
 
+namespace LeaveManagment.Application.Features.LeaveTypes.Handlers.Commands;
 public class CreateLeaveTypeCommandHandler : IRequestHandler<CreateLeaveTypeCommand, int>
 {
     ILeaveTypeRepository _leaveTypeRepository;

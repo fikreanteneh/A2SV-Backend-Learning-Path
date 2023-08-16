@@ -3,11 +3,11 @@
 
 
 using AutoMapper;
-using LeaveManagment.Application.DTO;
+using LeaveManagment.Application.DTO.LeaveRequest;
 using LeaveManagment.Application.Features.LeaveRequests.Requests.Queries;
 using LeaveManagment.Application.Persistence.Contracts;
 using MediatR;
-
+namespace LeaveManagment.Application.Features.LeaveRequests.Handlers.Queries;
 public class GetLeaveRequestDetailRequestHandler : IRequestHandler<GetLeaveRequestDetailRequest, LeaveRequestDto>
 {
     ILeaveRequestRepository _leaveRequestRepository;

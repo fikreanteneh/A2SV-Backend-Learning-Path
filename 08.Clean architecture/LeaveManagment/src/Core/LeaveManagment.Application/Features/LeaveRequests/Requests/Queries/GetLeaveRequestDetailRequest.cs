@@ -2,7 +2,7 @@
 
 
 
-using LeaveManagment.Application.DTO;
+using LeaveManagment.Application.DTO.LeaveRequest;
 using MediatR;
 
 namespace LeaveManagment.Application.Features.LeaveRequests.Requests.Queries;

@@ -1,8 +1,8 @@
 
 
-using LeaveManagment.Application.DTO.Common;
-namespace LeaveManagment.Application.DTO;
-public class CreateLeaveRequestDto : BaseDto
+namespace LeaveManagment.Application.DTO.LeaveRequest;
+
+public class CreateLeaveRequestDto
 {
     public DateTime StartDate {get; set;}
     public DateTime EndDate {get; set;}

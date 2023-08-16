@@ -1,5 +1,8 @@
 using LeaveManagment.Application.DTO.Common;
-namespace LeaveManagment.Application.DTO;
+using LeaveManagment.Application.DTO.LeaveType;
+
+namespace LeaveManagment.Application.DTO.LeaveRequest;
+
 
 
 public class LeaveRequestDto : BaseDto {

@@ -1,7 +1,7 @@
 
 
 
-using LeaveManagment.Application.DTO;
+using LeaveManagment.Application.DTO.LeaveAllocation;
 using MediatR;
 
 

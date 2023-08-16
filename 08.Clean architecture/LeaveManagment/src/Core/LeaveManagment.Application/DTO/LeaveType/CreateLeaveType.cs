@@ -1,8 +1,7 @@
 
 
-using LeaveManagment.Application.DTO.Common;
-namespace LeaveManagment.Application.DTO;
-public class CreateLeaveTypeDto : BaseDto
+namespace LeaveManagment.Application.DTO.LeaveType;
+public class CreateLeaveTypeDto
 {
         public string Name { get; set; } = default!;
         public int DefaultDays { get; set; }
