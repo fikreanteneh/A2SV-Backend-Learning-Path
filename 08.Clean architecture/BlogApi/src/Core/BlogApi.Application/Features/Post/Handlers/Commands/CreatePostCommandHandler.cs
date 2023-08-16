@@ -6,9 +6,10 @@ using BlogApi.Application.Persistence.Contracts;
 using BlogApi.Domain;
 using BlogApi.Application.DTO.Post.Validators;
 using BlogApi.Application.Exceptions;
+using BlogApi.Application.Response;
 
 namespace BlogApi.Application.Features.Post.Handlers.Commands;
-public class CreatePostCommandHandler : IRequestHandler<CreatPostRequest, int>
+public class CreatePostCommandHandler : IRequestHandler<CreatPostRequest, BaseCommandResponse>
 {
     IPostRepository _postRepository;
     Mapper _mapper;
@@ -18,8 +19,9 @@ public class CreatePostCommandHandler : IRequestHandler<CreatPostRequest, int>
 
     }
 
-    public async Task<int> Handle(CreatPostRequest request, CancellationToken cancellationToken)
+    public async Task<BaseCommandResponse> Handle(CreatPostRequest request, CancellationToken cancellationToken)
     {
+        var response = new BaseCommandResponse();
         var validator = new CreatePostDtoValidator();
         var validationResult = await validator.ValidateAsync(request.createPost);
         if (!validationResult.IsValid)
@@ -28,6 +30,10 @@ public class CreatePostCommandHandler : IRequestHandler<CreatPostRequest, int>
         }
         var post = _mapper.Map<Domain.Post>(request.createPost);
         await _postRepository.Add(post);
-        return post.Id;
+        response.Id = post.Id;
+        response.Message = "Post created successfully";
+        response.Success = true;
+        response.Errors = null;  
+        return response;
     }
 }
