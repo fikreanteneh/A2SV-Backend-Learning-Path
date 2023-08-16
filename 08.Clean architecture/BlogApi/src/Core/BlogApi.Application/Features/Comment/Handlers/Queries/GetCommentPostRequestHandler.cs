@@ -7,20 +7,20 @@ using BlogApi.Application.Persistence.Contracts;
 using BlogApi.Application.DTO.Comment;
 
 namespace BlogApi.Application.Features.Comment.Handlers.Queries;
-public class GetCommentListRequestHandler : IRequestHandler<GetCommentPostRequest, List<CommentDto>>
+public class GetCommentPostRequestHandler : IRequestHandler<GetCommentPostRequest, List<CommentDto>>
 {
 
     ICommentRepository _commentRepository;
     Mapper _mapper;
-    public GetCommentListRequestHandler(ICommentRepository commentRepository, Mapper mapper)
+    public GetCommentPostRequestHandler(ICommentRepository postRepository, Mapper mapper)
     {
-        _commentRepository = commentRepository;
+        _commentRepository = postRepository;
         _mapper = mapper;
     }
 
     public async Task<List<CommentDto>> Handle(GetCommentPostRequest request, CancellationToken cancellationToken)
     {
-        var comments = await _commentRepository.GetAll();
+        var comments = await _commentRepository.GetByPost(request.Id);
         return  _mapper.Map<List<CommentDto>>(comments);
     }
 }

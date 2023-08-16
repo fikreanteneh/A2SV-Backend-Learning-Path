@@ -1,24 +1,26 @@
+// update command handler for post
+
 
 using AutoMapper;
 using MediatR;
-using BlogApi.Application.Features.Requests;
 using BlogApi.Application.Persistence.Contracts;
-using BlogApi.Domain;
+using BlogApi.Application.Features.Comment.Requests;
 
-public class CreatePostCommandHandler : IRequestHandler<CreatPostRequest, int>
+namespace BlogApi.Application.Features.Comment.Handlers.Commands;
+public class CreatePostCommandHandler : IRequestHandler<CreatCommentRequest, int>
 {
-    IPostRepository _postRepository;
+    ICommentRepository _commentRepository;
     Mapper _mapper;
-    public CreatePostCommandHandler(IPostRepository postRepository, Mapper mapper){
-        _postRepository = postRepository;
+    public CreatePostCommandHandler(ICommentRepository commentRepository, Mapper mapper)
+    {
+        _commentRepository = commentRepository;
         _mapper = mapper;
-
     }
 
-    public async Task<int> Handle(CreatPostRequest request, CancellationToken cancellationToken)
+
+    public async Task<int> Handle(CreatCommentRequest request, CancellationToken cancellationToken)
     {
-        var post = _mapper.Map<Post>(request.createPost);
-        await _postRepository.Add(post);
-        return post.Id;
+        var comment = await _commentRepository.Add(_mapper.Map<Domain.Comment>(request.createComment));
+        return comment.Id;
     }
 }

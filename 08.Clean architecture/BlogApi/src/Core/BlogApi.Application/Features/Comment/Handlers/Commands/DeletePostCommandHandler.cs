@@ -1,24 +1,27 @@
+// update command handler for post
+
 
 using AutoMapper;
 using MediatR;
-using BlogApi.Application.Features.Requests;
 using BlogApi.Application.Persistence.Contracts;
-using BlogApi.Domain;
+using BlogApi.Application.Features.Comment.Requests;
 
-public class DeletePostCommandHandler : IRequestHandler<DeletePostRequest, Unit>
+namespace BlogApi.Application.Features.Comment.Handlers.Commands;
+public class DeletePostCommandHandler : IRequestHandler<DeleteCommentRequest, Unit>
 {
-    IPostRepository _postRepository;
+    ICommentRepository _commentRepository;
     Mapper _mapper;
-    public DeletePostCommandHandler(IPostRepository postRepository, Mapper mapper){
-        _postRepository = postRepository;
+    public DeletePostCommandHandler(ICommentRepository commentRepository, Mapper mapper)
+    {
+        _commentRepository = commentRepository;
         _mapper = mapper;
-
     }
 
-    public async Task<Unit> Handle(DeletePostRequest request, CancellationToken cancellationToken)
+
+    public async Task<Unit> Handle(DeleteCommentRequest request, CancellationToken cancellationToken)
     {
-        var post = _mapper.Map<Post>(request.Id);
-        await _postRepository.Delete(post);
+        var comment = await _commentRepository.Get(request.Id);
+        await _commentRepository.Update(comment);
         return Unit.Value;
     }
 }

@@ -3,24 +3,26 @@
 
 using AutoMapper;
 using MediatR;
-using BlogApi.Application.Features.Requests;
 using BlogApi.Application.Persistence.Contracts;
+using BlogApi.Application.Features.Comment.Requests;
 
-public class UpdatePostCommandHandler : IRequestHandler<UpdatePostRequest, Unit>
+namespace BlogApi.Application.Features.Comment.Handlers.Commands;
+public class UpdatePostCommandHandler : IRequestHandler<UpdateCommentRequest, Unit>
 {
-    private readonly IPostRepository _postRepository;
-    private readonly Mapper _mapper;
-
-    public UpdatePostCommandHandler(IPostRepository postRepository, Mapper mapper){
-        _postRepository = postRepository;
+    ICommentRepository _commentRepository;
+    Mapper _mapper;
+    public UpdatePostCommandHandler(ICommentRepository commentRepository, Mapper mapper)
+    {
+        _commentRepository = commentRepository;
         _mapper = mapper;
     }
 
-    public async Task<Unit> Handle(UpdatePostRequest request, CancellationToken cancellationToken)
+
+    public async Task<Unit> Handle(UpdateCommentRequest request, CancellationToken cancellationToken)
     {
-        var post = await _postRepository.Get(request.updatePost.Id);
-        _mapper.Map(request.updatePost, post);        
-        await _postRepository.Update(post);
+        var comment = await _commentRepository.Get(request.updatedComment.Id);
+        _mapper.Map(request.updatedComment, comment);        
+        await _commentRepository.Update(comment);
         return Unit.Value;
     }
 }
