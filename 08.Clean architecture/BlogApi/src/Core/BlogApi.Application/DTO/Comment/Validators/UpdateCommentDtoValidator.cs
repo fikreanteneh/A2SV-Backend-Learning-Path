@@ -6,9 +6,9 @@ using FluentValidation;
 
 namespace BlogApi.Application.DTO.Comment.Validators;
 
-public class UpdateCommentDtoCommentDtoValidator : AbstractValidator<UpdateCommentDto>
+public class UpdateCommentDtoValidator : AbstractValidator<UpdateCommentDto>
 {
-    public UpdateCommentDtoCommentDtoValidator(IPostRepository postRepository, ICommentRepository commentRepository)
+    public UpdateCommentDtoValidator(IPostRepository postRepository, ICommentRepository commentRepository)
     {
         Include(new ICommentDtoValidator(postRepository));
         RuleFor(x => x.Id).MustAsync(async (id, cancellation) =>
