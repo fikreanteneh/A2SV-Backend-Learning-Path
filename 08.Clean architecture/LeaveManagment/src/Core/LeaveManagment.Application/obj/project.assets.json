@@ -423,11 +423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj",
+      "projectUniqueName": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj",
       "projectName": "LeaveManagment.Application",
-      "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj",
+      "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj",
       "packagesPath": "C:\\Users\\fikre\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\obj\\",
+      "outputPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fikre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -444,8 +444,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj": {
-              "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj"
+            "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj": {
+              "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj"
             }
           }
         }

@@ -17,7 +17,7 @@ public class UpdateLeaveAllocationCommandHandler : IRequestHandler<UpdateLeaveAl
 
     public async Task<Unit> Handle(UpdateLeaveAllocationRequest request, CancellationToken cancellationToken)
     {
-        var leaveAllocation = _mapper.Map<LeaveManagement.Domain.LeaveAllocation>(request.);
+        var leaveAllocation = _mapper.Map<LeaveManagement.Domain.LeaveAllocation>(request.LeaveAllocationDto);
         await _leaveAllocationRepository.Update(leaveAllocation);
         return Unit.Value;
     }
