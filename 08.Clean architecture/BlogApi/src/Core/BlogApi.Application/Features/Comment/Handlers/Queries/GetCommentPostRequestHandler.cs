@@ -5,6 +5,7 @@ using MediatR;
 using BlogApi.Application.Features.Comment.Requests;
 using BlogApi.Application.Persistence.Contracts;
 using BlogApi.Application.DTO.Comment;
+using BlogApi.Application.Exceptions;
 
 namespace BlogApi.Application.Features.Comment.Handlers.Queries;
 public class GetCommentPostRequestHandler : IRequestHandler<GetCommentPostRequest, List<CommentDto>>
@@ -21,6 +22,10 @@ public class GetCommentPostRequestHandler : IRequestHandler<GetCommentPostReques
     public async Task<List<CommentDto>> Handle(GetCommentPostRequest request, CancellationToken cancellationToken)
     {
         var comments = await _commentRepository.GetByPost(request.Id);
+        if (comments == null)
+        {
+            throw new NotFoundException(nameof(comments), request.Id);
+        }
         return  _mapper.Map<List<CommentDto>>(comments);
     }
 }

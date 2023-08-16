@@ -5,6 +5,7 @@ using MediatR;
 using BlogApi.Application.DTO.Post;
 using BlogApi.Application.Persistence.Contracts;
 using BlogApi.Application.Features.Post.Requests;
+using BlogApi.Application.Exceptions;
 
 namespace BlogApi.Application.Features.Post.Handlers.Queries;
 
@@ -22,6 +23,7 @@ public class GetPostListRequestHandler : IRequestHandler<GetPostListRequest, Lis
     public async Task<List<PostListDto>> Handle(GetPostListRequest request, CancellationToken cancellationToken)
     {
         var posts = await _postRepository.GetAll();
+        
         return _mapper.Map<List<PostListDto>>(posts);
     }
 }
