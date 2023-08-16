@@ -7,7 +7,7 @@ using BlogApi.Application.DTO.Post;
 using MediatR;
 
 
-namespace BlogApi.Application.Features.Requests;
+namespace BlogApi.Application.Features.Post.Requests;
 
 public class CreatPostRequest : IRequest<int>
 {

@@ -10,9 +10,10 @@ public class MappingProfile : AutoMapper.Profile
 
     public MappingProfile()
     {
-        CreateMap<Post, PostDto>().ReverseMap();
-        CreateMap<Post, PostListDto>().ReverseMap();  
-        CreateMap<Comment, CommentDto>().ReverseMap();
+            CreateMap<Comment, CreateCommentDto>().ReverseMap();
+            CreateMap<Comment, UpdateCommentDto>().ReverseMap();
+            CreateMap<Post, CreatePostDto>().ReverseMap();
+            CreateMap<Post, UpdatePostDto>().ReverseMap();
     }
     
 }

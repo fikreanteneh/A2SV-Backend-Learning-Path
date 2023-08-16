@@ -1,9 +1,9 @@
 
 using AutoMapper;
 using MediatR;
-using BlogApi.Application.Features.Post.Requests;
+using BlogApi.Application.Features.Requests;
 using BlogApi.Application.Persistence.Contracts;
-namespace BlogApi.Application.Features.Post.Handlers.Commands;
+using BlogApi.Domain;
 
 public class DeletePostCommandHandler : IRequestHandler<DeletePostRequest, Unit>
 {
@@ -17,7 +17,7 @@ public class DeletePostCommandHandler : IRequestHandler<DeletePostRequest, Unit>
 
     public async Task<Unit> Handle(DeletePostRequest request, CancellationToken cancellationToken)
     {
-        var post = await _postRepository.Get(request.Id);
+        var post = _mapper.Map<Post>(request.Id);
         await _postRepository.Delete(post);
         return Unit.Value;
     }

@@ -2,9 +2,11 @@
 
 using AutoMapper;
 using MediatR;
-using BlogApi.Application.Features.Requests;
 using BlogApi.Application.DTO.Post;
 using BlogApi.Application.Persistence.Contracts;
+using BlogApi.Application.Features.Post.Requests;
+
+namespace BlogApi.Application.Features.Post.Handlers.Queries;
 
 public class GetPostListRequestHandler : IRequestHandler<GetPostListRequest, List<PostListDto>>
 {
