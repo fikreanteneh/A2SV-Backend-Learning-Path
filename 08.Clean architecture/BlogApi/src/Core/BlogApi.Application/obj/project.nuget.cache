@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nLqesJLWPX/cQlXqMJRHMVWn5hJEN3ynp2rUflyyI0uEfAMgkD1ZL8yWggoUjD5EU0saJy4mDs10s1Xp1RT3SA==",
+  "dgSpecHash": "PKRgfEXHxy4n9vJzfa0f5xQVxXdnTwjKxR9panaOaCxIQmIYp1MxfPhP07G24dbqOGLCnyXC+5KvoDzeUnVF0Q==",
   "success": true,
   "projectFilePath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\fikre\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",

@@ -1,0 +1,17 @@
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\bin\Debug\net7.0\BlogApi.Persistance.deps.json
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\bin\Debug\net7.0\BlogApi.Persistance.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\bin\Debug\net7.0\BlogApi.Persistance.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\BlogApi.Persistance.csproj.AssemblyReference.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\BlogApi.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\BlogApi.Persistance.AssemblyInfoInputs.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\BlogApi.Persistance.AssemblyInfo.cs
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\BlogApi.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\BlogApi.Persistance.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\refint\BlogApi.Persistance.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\BlogApi.Persistance.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\ref\BlogApi.Persistance.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\bin\Debug\net7.0\BlogApi.Application.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\bin\Debug\net7.0\BlogApi.Domain.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\bin\Debug\net7.0\BlogApi.Application.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\bin\Debug\net7.0\BlogApi.Domain.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\BlogApi\src\Infrastructure\BlogApi.Persistance\obj\Debug\net7.0\BlogApi.Persistance.csproj.CopyComplete

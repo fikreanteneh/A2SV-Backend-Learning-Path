@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj": {}
+    "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj": {
+    "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj",
+        "projectUniqueName": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj",
         "projectName": "LeaveManagment.Application",
-        "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj",
+        "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\LeaveManagment.Application.csproj",
         "packagesPath": "C:\\Users\\fikre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\obj\\",
+        "outputPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fikre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj": {
-                "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj"
+              "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj": {
+                "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.7.1, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -73,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj": {
+    "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj",
         "projectName": "LeaveManagment.Domain",
-        "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj",
+        "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\LeaveManagment.Domain.csproj",
         "packagesPath": "C:\\Users\\fikre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\obj\\",
+        "outputPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\LeaveManagment\\src\\Core\\LeaveManagment.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fikre\\AppData\\Roaming\\NuGet\\NuGet.Config",

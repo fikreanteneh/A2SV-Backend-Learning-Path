@@ -1,0 +1,15 @@
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\LeaveManagment.Domain.csproj.AssemblyReference.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\LeaveManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\LeaveManagment.Domain.AssemblyInfoInputs.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\LeaveManagment.Domain.AssemblyInfo.cs
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\LeaveManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\bin\Debug\net7.0\LeaveManagment.Domain.exe
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\bin\Debug\net7.0\LeaveManagment.Domain.deps.json
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\bin\Debug\net7.0\LeaveManagment.Domain.runtimeconfig.json
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\bin\Debug\net7.0\LeaveManagment.Domain.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\bin\Debug\net7.0\LeaveManagment.Domain.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\LeaveManagment.Domain.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\refint\LeaveManagment.Domain.dll
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\LeaveManagment.Domain.pdb
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\LeaveManagment.Domain.genruntimeconfig.cache
+C:\Users\fikre\OneDrive\Desktop\A2SV-Backend-Learning-Path\08.Clean architecture\LeaveManagment\src\Core\LeaveManagment.Domain\obj\Debug\net7.0\ref\LeaveManagment.Domain.dll
