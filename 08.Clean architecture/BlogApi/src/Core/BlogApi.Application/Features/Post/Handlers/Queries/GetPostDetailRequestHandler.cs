@@ -4,7 +4,7 @@ using AutoMapper;
 using MediatR;
 using BlogApi.Application.Features.Post.Requests;
 using BlogApi.Application.DTO.Post;
-using BlogApi.Application.Persistence.Contracts;
+using BlogApi.Application.Contracts.Persistence;
 using BlogApi.Application.Exceptions;
 
 namespace BlogApi.Application.Features.Post.Handlers.Queries;

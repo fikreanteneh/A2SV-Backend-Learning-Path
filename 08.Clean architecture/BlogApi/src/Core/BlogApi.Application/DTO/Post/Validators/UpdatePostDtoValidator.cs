@@ -1,7 +1,7 @@
 
 
 
-using BlogApi.Application.Persistence.Contracts;
+using BlogApi.Application.Contracts.Persistence;
 using FluentValidation;
 
 namespace BlogApi.Application.DTO.Post.Validators;

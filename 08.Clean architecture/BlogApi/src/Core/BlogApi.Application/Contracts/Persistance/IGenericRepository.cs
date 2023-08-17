@@ -1,6 +1,6 @@
 
 
-namespace BlogApi.Application.Persistence.Contracts;
+namespace BlogApi.Application.Contracts.Persistence;
 
 public interface IGenericRepository<T> where T : class
 {

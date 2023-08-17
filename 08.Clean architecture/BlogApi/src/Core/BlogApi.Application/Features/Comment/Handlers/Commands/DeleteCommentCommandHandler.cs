@@ -3,7 +3,7 @@
 
 using AutoMapper;
 using MediatR;
-using BlogApi.Application.Persistence.Contracts;
+using BlogApi.Application.Contracts.Persistence;
 using BlogApi.Application.Features.Comment.Requests;
 using BlogApi.Application.Exceptions;
 

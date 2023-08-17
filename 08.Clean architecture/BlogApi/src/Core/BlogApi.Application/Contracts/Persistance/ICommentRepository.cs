@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using BlogApi.Domain;
-namespace BlogApi.Application.Persistence.Contracts;
+namespace BlogApi.Application.Contracts.Persistence;
 
 public interface ICommentRepository : IGenericRepository<Comment>
 {

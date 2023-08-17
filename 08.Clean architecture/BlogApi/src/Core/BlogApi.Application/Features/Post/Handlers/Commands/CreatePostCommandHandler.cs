@@ -2,7 +2,7 @@
 using AutoMapper;
 using MediatR;
 using BlogApi.Application.Features.Post.Requests;
-using BlogApi.Application.Persistence.Contracts;
+using BlogApi.Application.Contracts.Persistence;
 using BlogApi.Domain;
 using BlogApi.Application.DTO.Post.Validators;
 using BlogApi.Application.Exceptions;
