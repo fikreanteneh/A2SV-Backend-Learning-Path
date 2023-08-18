@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj": {}
+    "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj": {
+    "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj",
+        "projectUniqueName": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj",
         "projectName": "BlogApi.Application",
-        "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj",
+        "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj",
         "packagesPath": "C:\\Users\\fikre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\obj\\",
+        "outputPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fikre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj": {
+    "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj",
+        "projectUniqueName": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj",
         "projectName": "BlogApi.Persistance",
-        "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj",
+        "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj",
         "packagesPath": "C:\\Users\\fikre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\obj\\",
+        "outputPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fikre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,11 +160,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj": {
-                "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj"
+              "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj": {
+                "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Application\\BlogApi.Application.csproj"
               },
-              "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj"
+              "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj": {
+                "projectPath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj"
               }
             }
           }
@@ -179,6 +179,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.4, )"

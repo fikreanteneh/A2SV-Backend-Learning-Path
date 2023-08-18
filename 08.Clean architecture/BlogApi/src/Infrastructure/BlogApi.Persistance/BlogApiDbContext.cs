@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using BlogApi.Domain;
 
-namespace BlogApi.Infrastructure.Prersistance;
+namespace BlogApi.Prersistance;
 public class BlogApiDbContext : DbContext {
 
         public virtual DbSet<Post> Posts { get; set; }

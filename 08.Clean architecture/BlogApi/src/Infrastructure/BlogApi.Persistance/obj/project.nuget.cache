@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BACw9kz/z2RXSNs1J6H8B9MUVwONzOXc87NiMtY1C/kyltr95iD8gxgJ82PAIYrBU4ngHOUX2odd5K8yx/BMcg==",
+  "dgSpecHash": "NbqAevEM4nJX+XSkYQAFa4deIUpyyBKMWn+vsXaDdayFLuLFJLu7KcgKeWA3fR0CRyYY0sqgJgaKfkWn4n32Cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj",
+  "projectFilePath": "c:\\Users\\fikre\\OneDrive\\Desktop\\A2SV-Backend-Learning-Path\\08.Clean architecture\\BlogApi\\src\\Infrastructure\\BlogApi.Persistance\\BlogApi.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fikre\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -18,6 +18,7 @@
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.5\\microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\fikre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

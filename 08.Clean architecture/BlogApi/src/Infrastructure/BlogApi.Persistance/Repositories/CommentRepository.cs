@@ -1,8 +1,8 @@
-using BlogApi.Application.Persistence.Contracts;
+using BlogApi.Application.Contracts.Persistence;
 using Microsoft.EntityFrameworkCore;
 using BlogApi.Domain;
 
-namespace BlogApi.Infrastructure.Prersistance.Repositories;
+namespace BlogApi.Prersistance.Repositories;
 
 public class CommentRepository : GenericRepository<Comment>, ICommentRepository
 {
